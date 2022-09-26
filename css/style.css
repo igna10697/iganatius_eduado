@@ -1,0 +1,31 @@
+
+
+  #body{
+    display: flex;
+    flex-direction: row;
+  }
+  #navbar{
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+    border-color: black;
+}
+  
+  .main-section{
+    height: auto;
+    flex-direction:row-reverse;
+    justify-content: flex-end;
+    display: flex;
+  }
+@media(max-width: 815px) {
+    #body{
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar{
+        display: flex;
+    }
+}
